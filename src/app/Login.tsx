@@ -80,6 +80,8 @@ const Login: React.FC = () => {
             Login
           </Button>
         </form>
+        <Link to="/register">หากยังไม่มีบัญชี ไปยังหน้าลงทะเบียน</Link>
+        <br />
         <Link to="/">ย้อนกลับ</Link>
       </Box>
     </Container>
