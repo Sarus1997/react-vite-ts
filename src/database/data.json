@@ -1,11 +1,68 @@
 [
-    {
-      "email": "user1@example.com",
-      "password": "password123"
-    },
-    {
-      "email": "user2@example.com",
-      "password": "password456"
-    }
-  ]
-  
+  {
+    "name": "User One",
+    "email": "user1@example.com",
+    "profession": "Web Developer",
+    "projects": [
+      {
+        "id": 1,
+        "title": "Portfolio Website",
+        "description": "A personal portfolio website to showcase my projects and skills.",
+        "link": "https://example.com/portfolio"
+      },
+      {
+        "id": 2,
+        "title": "E-commerce Platform",
+        "description": "An online platform for buying and selling products.",
+        "link": "https://example.com/ecommerce"
+      }
+    ],
+    "skills": [
+      {
+        "id": 1,
+        "name": "JavaScript"
+      },
+      {
+        "id": 2,
+        "name": "React"
+      },
+      {
+        "id": 3,
+        "name": "Node.js"
+      }
+    ]
+  },
+  {
+    "name": "User Two",
+    "email": "user2@example.com",
+    "profession": "Data Scientist",
+    "projects": [
+      {
+        "id": 1,
+        "title": "Data Analysis Tool",
+        "description": "A tool for analyzing and visualizing data.",
+        "link": "https://example.com/data-analysis"
+      },
+      {
+        "id": 2,
+        "title": "Machine Learning Model",
+        "description": "A machine learning model for predicting trends.",
+        "link": "https://example.com/ml-model"
+      }
+    ],
+    "skills": [
+      {
+        "id": 1,
+        "name": "Python"
+      },
+      {
+        "id": 2,
+        "name": "TensorFlow"
+      },
+      {
+        "id": 3,
+        "name": "Pandas"
+      }
+    ]
+  }
+]
